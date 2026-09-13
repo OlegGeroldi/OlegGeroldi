@@ -1,0 +1,37 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Oleg Geroldi GitHub Profile Banner</title>
+  <desc id="desc">Gradient banner with subtle abstract circles and text.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 80) rotate(18) scale(240 140)">
+      <stop stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 250) rotate(-20) scale(260 160)">
+      <stop stop-color="#A78BFA" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)" rx="20"/>
+  <ellipse cx="220" cy="80" rx="260" ry="150" fill="url(#glow1)"/>
+  <ellipse cx="980" cy="250" rx="290" ry="170" fill="url(#glow2)"/>
+
+  <g fill="white" fill-opacity="0.2">
+    <circle cx="1080" cy="70" r="24"/>
+    <circle cx="1120" cy="105" r="10"/>
+    <circle cx="1035" cy="105" r="12"/>
+    <circle cx="140" cy="255" r="14"/>
+    <circle cx="175" cy="280" r="8"/>
+  </g>
+
+  <text x="72" y="150" fill="white" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="44" font-weight="700">
+    Oleg Geroldi
+  </text>
+  <text x="72" y="194" fill="#DBEAFE" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="500">
+    Building reliable code, one project at a time
+  </text>
+</svg>
